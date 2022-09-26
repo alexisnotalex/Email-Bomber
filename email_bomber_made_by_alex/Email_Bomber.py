@@ -58,7 +58,7 @@ class Email_Bomber:
     def __init__(self):
             print(bcolors.RED + '_PROGRAMME_EN_COUR_DE_LANCEMENT_')
             self.target = str(input(bcolors.GREEN + 'Enter target email <: '))
-            self.mode = int(input(bcolors.GREEN + 'Entrer l\'option que vous souhaiter' (1,2,3,4) || 1:(1000) 2:(500) 3:(250) 4:(custom) <: '))
+            self.mode = int(input(bcolors.GREEN + 'Entrer l\'option que vous souhaiter (1,2,3,4) || 1:(1000) 2:(500) 3:(250) 4:(custom) <: '))
 
 
     def bomb(self):
